@@ -8,7 +8,8 @@ var organismNum = 10;
 var eggs = [];
 
 function setup() {
-	createCanvas(1920, 970);
+	var canvas = createCanvas(1920, 700);
+	canvas.parent('sketch-holder');
 	noStroke();
 	rectMode(CENTER);
 	
